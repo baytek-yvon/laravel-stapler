@@ -1,5 +1,5 @@
 {
-    "name": "codesleeve/laravel-stapler",
+    "name": "baytek-yvon/laravel-stapler",
     "description": "Easy file upload management for the Laravel Framework.",
     "keywords": ["laravel", "file", "upload", "S3", "AWS", "stapler", "paperclip"],
     "license": "MIT",
@@ -19,7 +19,7 @@
             "src/migrations"
         ],
         "psr-4": {
-            "Codesleeve\\LaravelStapler\\": "src/"
+            "BaytekYvon\\LaravelStapler\\": "src/"
         }
     },
     "minimum-stability": "stable"

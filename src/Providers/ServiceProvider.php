@@ -12,7 +12,7 @@ abstract class ServiceProvider extends BaseServiceProvider
      * - Set the config driver.
      * - Set public_path config using laravel's public_path() method (if necessary).
      * - Set base_path config using laravel's base_path() method (if necessary).
-     * 
+     *
      * @return void
      */
     abstract protected function bootstrapStapler();
@@ -59,8 +59,8 @@ abstract class ServiceProvider extends BaseServiceProvider
 
     /**
      * Register the image refresh service with the container.
-     * 
-     * @return void 
+     *
+     * @return void
      */
     protected function registerImageRefreshService()
     {
