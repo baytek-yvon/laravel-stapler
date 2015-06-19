@@ -1,4 +1,4 @@
-<?php namespace Codesleeve\LaravelStapler\Exceptions;
+<?php namespace BaytekYvon\LaravelStapler\Exceptions;
 
 use Exception;
 

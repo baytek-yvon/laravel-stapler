@@ -1,11 +1,11 @@
-<?php namespace Codesleeve\LaravelStapler;
+<?php namespace BaytekYvon\LaravelStapler;
 
 use Config;
 use Illuminate\Support\ServiceProvider;
-use Codesleeve\LaravelStapler\Services\ImageRefreshService;
+use BaytekYvon\LaravelStapler\Services\ImageRefreshService;
 use Codesleeve\Stapler\Stapler;
 
-class LaravelStaplerServiceProvider extends ServiceProvider 
+class LaravelStaplerServiceProvider extends ServiceProvider
 {
     /**
      * Indicates if loading of the provider is deferred.
@@ -62,7 +62,7 @@ class LaravelStaplerServiceProvider extends ServiceProvider
      * - Set the config driver.
      * - Set public_path config using laravel's public_path() method (if necessary).
      * - Set base_path config using laravel's base_path() method (if necessary).
-     * 
+     *
      * @return void
      */
     protected function bootstrapStapler()
@@ -113,8 +113,8 @@ class LaravelStaplerServiceProvider extends ServiceProvider
 
     /**
      * Register the image refresh service with the container.
-     * 
-     * @return void 
+     *
+     * @return void
      */
     protected function registerImageRefreshService()
     {
@@ -125,7 +125,7 @@ class LaravelStaplerServiceProvider extends ServiceProvider
 
     /**
      * Register the the migrations folder path with the container.
-     * 
+     *
      * @return void
      */
     protected function registerMigrationFolderPath()

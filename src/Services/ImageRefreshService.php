@@ -1,6 +1,6 @@
-<?php namespace Codesleeve\LaravelStapler\Services;
+<?php namespace BaytekYvon\LaravelStapler\Services;
 
-use Codesleeve\LaravelStapler\Exceptions\InvalidClassException;
+use BaytekYvon\LaravelStapler\Exceptions\InvalidClassException;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Foundation\Application;
 use Symfony\Component\Console\Helper\ProgressBar;
@@ -11,14 +11,14 @@ class ImageRefreshService
 {
     /**
      * The laravel application instance.
-     * 
+     *
      * @var Application
      */
     protected $app;
 
     /**
      * A Symfony console output instance.
-     * 
+     *
      * @var OutputInterface
      */
     protected $output;

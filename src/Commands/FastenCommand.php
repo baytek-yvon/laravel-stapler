@@ -1,4 +1,4 @@
-<?php namespace Codesleeve\LaravelStapler\Commands;
+<?php namespace BaytekYvon\LaravelStapler\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
@@ -25,28 +25,28 @@ class FastenCommand extends Command
 
     /**
      * An instance of Laravel's view factory.
-     * 
+     *
      * @var View
      */
     protected $view;
 
     /**
      * An instance of Laravel's filesystem.
-     * 
+     *
      * @var File
      */
     protected $file;
 
     /**
      * The path to the application's migrations folder.
-     * 
+     *
      * @var File
      */
     protected $migrationsFolderPath;
 
     /**
      * Create a new command instance.
-     * 
+     *
      * @param View   $view
      * @param File   $file
      * @param string $migrationsFolderPath

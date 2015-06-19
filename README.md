@@ -35,7 +35,7 @@ Install the package using Composer.  Edit your project's `composer.json` file to
 Once this operation completes, the final step is to add the service provider. Open `app/config/app.php`, and add a new item to the providers array.
 
 ```php
-    'Codesleeve\LaravelStapler\LaravelStaplerServiceProvider'
+    'BaytekYvon\LaravelStapler\LaravelStaplerServiceProvider'
 ```
 
 Configuration files can be published and edited by running:

@@ -1,8 +1,8 @@
-<?php namespace Codesleeve\LaravelStapler\Providers;
+<?php namespace BaytekYvon\LaravelStapler\Providers;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
-use Codesleeve\LaravelStapler\Commands\RefreshCommand;
-use Codesleeve\LaravelStapler\Services\ImageRefreshService;
+use BaytekYvon\LaravelStapler\Commands\RefreshCommand;
+use BaytekYvon\LaravelStapler\Services\ImageRefreshService;
 
 abstract class ServiceProvider extends BaseServiceProvider
 {

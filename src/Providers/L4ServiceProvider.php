@@ -1,11 +1,11 @@
-<?php namespace Codesleeve\LaravelStapler\Providers;
+<?php namespace BaytekYvon\LaravelStapler\Providers;
 
-use Codesleeve\LaravelStapler\IlluminateConfig;
+use BaytekYvon\LaravelStapler\IlluminateConfig;
 use Codesleeve\Stapler\Stapler;
-use Codesleeve\LaravelStapler\Commands\FastenCommand;
+use BaytekYvon\LaravelStapler\Commands\FastenCommand;
 use Config;
 
-class L4ServiceProvider extends ServiceProvider 
+class L4ServiceProvider extends ServiceProvider
 {
     /**
      * Indicates if loading of the provider is deferred.
@@ -41,7 +41,7 @@ class L4ServiceProvider extends ServiceProvider
      * - Set the config driver.
      * - Set public_path config using laravel's public_path() method (if necessary).
      * - Set base_path config using laravel's base_path() method (if necessary).
-     * 
+     *
      * @return void
      */
     protected function bootstrapStapler()
@@ -77,7 +77,7 @@ class L4ServiceProvider extends ServiceProvider
 
     /**
      * Register the the migrations folder path with the container.
-     * 
+     *
      * @return void
      */
     protected function registerMigrationFolderPath()

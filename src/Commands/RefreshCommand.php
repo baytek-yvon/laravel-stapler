@@ -1,9 +1,9 @@
-<?php namespace Codesleeve\LaravelStapler\Commands;
+<?php namespace BaytekYvon\LaravelStapler\Commands;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
-use Codesleeve\LaravelStapler\Services\ImageRefreshService;
+use BaytekYvon\LaravelStapler\Services\ImageRefreshService;
 
 class RefreshCommand extends Command
 {

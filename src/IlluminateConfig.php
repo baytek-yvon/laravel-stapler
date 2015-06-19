@@ -1,4 +1,4 @@
-<?php namespace Codesleeve\LaravelStapler;
+<?php namespace BaytekYvon\LaravelStapler;
 
 use Codesleeve\Stapler\Config\ConfigurableInterface;
 use Orchestra\Config\Repository;
